@@ -1,8 +1,8 @@
 cmake_minimum_required(VERSION 3.0)
 project(chi2)
 
-# mainly used for IDE support (CLion)
-# but it can be used to actually build the extension
+# 
+# it can be used to actually build the extension
 # for python3 and OSX + homebrew:
 # cmake -DPYTHON_EXECUTABLE=/usr/local/bin/python3
 #       -DPYTHON_INCLUDE_DIR=`python3-config --prefix`/include/python3.5m
