@@ -58,4 +58,3 @@ target_link_libraries(chi2  ${PYTHON_LIBRARY})
 set_target_properties(chi2 PROPERTIES PREFIX "")
 set_target_properties(chi2 PROPERTIES SUFFIX ${EXTSUFFIX})
 
-#install(TARGETS _capi DESTINATION ${CMAKE_SOURCE_DIR}/neuroshare)
